@@ -1,0 +1,12 @@
+# Installed dependencies
+node_modules/
+
+# Generated coverage reports
+coverage/
+
+# Local environment files
+.env
+.env.*
+
+# npm debug logs
+npm-debug.log*
