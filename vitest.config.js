@@ -4,6 +4,7 @@ export default defineConfig({
   test: {
     coverage: {
       provider: 'v8',
+      reportOnFailure: true,
       include: [
         'src/toNumber.js',
         'src/get.js',
